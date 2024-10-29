@@ -17,7 +17,8 @@ ngOnInit() {
 this.items = [
 {
 label: 'Home',
-icon: 'pi pi-home'
+icon: 'pi pi-home',
+routerLink: '/'
 },
 {
 label: 'Features',
@@ -38,10 +39,16 @@ routerLink: 'signal1-ejemplo1'
   routerLink: 'signal-ejemplo2'
   },
 {
-label: 'UI Kit',
-icon: 'pi pi-pencil'
+label: 'Ejemplo3',
+icon: 'pi pi-pencil',
+routerLink: 'signal-ejemplo3'
 },
 {
+  label: 'Ejemplo4',
+  icon: 'pi pi-pencil',
+  routerLink: 'signal-ejemplo4'
+  },
+/*{
 label: 'Templates',
 icon: 'pi pi-palette',
 items: [
@@ -54,7 +61,7 @@ label: 'Ultima',
 icon: 'pi pi-palette'
 }
 ]
-}
+}*/
 ]
 },
 {
